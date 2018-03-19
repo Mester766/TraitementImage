@@ -21,7 +21,9 @@
     <ImageView
         android:id="@+id/imageOne"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="206dp"
+        android:maxHeight="20dp"
+        android:src="@drawable/image1" />
 
     <Button
         android:layout_width="match_parent"
@@ -32,6 +34,8 @@
     <ImageView
         android:id="@+id/imageTwo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="206dp"
+        android:maxHeight="40dp"
+        android:src="@drawable/image1" />
 
 </LinearLayout>

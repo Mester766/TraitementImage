@@ -33,7 +33,12 @@ public class MainActivity extends AppCompatActivity {
         numImage++;
         if ( numImage >= 13 ) numImage = 1;
         int imageID = getResources().getIdentifier("image"+numImage,"drawable",getPackageName());
-        ivOne.setImageResource(imageID);
+        ivTwo.setImageResource(imageID);
+
+    }
+
+    protected void processImage(View v)
+    {
 
     }
 }
