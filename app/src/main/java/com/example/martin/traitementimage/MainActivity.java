@@ -23,9 +23,6 @@ public class MainActivity extends AppCompatActivity {
         ivTwo = (ImageView) findViewById(R.id.imageTwo);
         tvProgress = (TextView) findViewById(R.id.tvComputationProgress);
         numImage = 1;
-        int imageID = getResources().getIdentifier("image"+numImage,"drawable",getPackageName());
-        ivOne.setImageResource(imageID);
-        ivTwo.setImageResource(imageID);
     }
 
     protected void changeImage(View v)
