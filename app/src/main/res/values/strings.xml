@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TraitementImage</string>
+    <string name="app_name" translatable="false">TraitementImage</string>
     <string name="buttonProcess">Process the image</string>
     <string name="buttonChange">Change the image</string>
 </resources>

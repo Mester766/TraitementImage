@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TraitementImage</string>
     <string name="buttonProcess">Process the image</string>
     <string name="buttonChange">Change the image</string>
 </resources>
